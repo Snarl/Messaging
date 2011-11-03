@@ -1,0 +1,11 @@
+<?php
+$servername = "localhost";
+$userid = "";
+$password = "";
+$database = "";
+$twitterLogin = "";
+$twitterPassword="";
+$twitterConsumerKey="";
+$twitterConsumerSecret="";
+$twitterAPIKey="";
+?>

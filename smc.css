@@ -1,0 +1,23 @@
+body {
+	font-family: "gill sans", "new baskerville", sans-serif;
+	background-color: #f0fff0;
+}
+td {
+border:1px solid white;
+font-size: 10pt;
+}
+
+
+th {
+background-color:green;
+color:white;
+}
+tr {
+background-color:#F7F7F7;
+}
+
+tr:hover {
+  /*background-color: #E1BDC5;*/
+  background-color: #C5E1BD;
+} 
+

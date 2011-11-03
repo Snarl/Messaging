@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <removehashtags value='on'/>
+   <msgperscreen value='100'/>
+   <URLstoLinks value='on'/>
+   <TagsColText value='small'/>
+   <HashColText value='medium'/>
+   <MsgColText value='small'/>
+   <badthresh value='44'/>
+   <goodthresh value='55'/>
+   <goodcolor value='green'/>
+   <medcolor value='orange'/>
+   <badcolor value='red'/>
+   <keywords value='arrest riot kettl injur baton shield helmet brutal blocked closed containment  barricade fire smoke contained white horse charge fit ukuncut TSG cop smash break ammonia explo J30 union polic snatch trouble violen black'/>
+   <picsperpage value='24'/>
+   <picsajaxtime value='5000'/>
+</config>
