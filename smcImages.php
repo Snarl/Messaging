@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Sukey 2eb - Images Console</title>
+<title>Snarl - Images Console</title>
 <link rel="stylesheet" type="text/css" href="smc.css" />
 <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="./library/jquery-1.4.4.js"></script>
@@ -118,7 +118,7 @@ getData();
 </head>
 <body>
 <div style="float: left: width: 100%; text-align: Left; color: white; background: green; font-size: 10pt;">
-	Sukey II electric boogaloo<BR/><small>Images Console</small>
+	Snarl<BR/><small>Images Console</small>
 	<div id="buttondiv" style="position:relative; float:right; top: -14px; right: 100px; background-color:transparent; border: none;">
 		<button onclick="document.location.href='./rateuser.php';">Reputation Management</button>
 		<button onclick="document.location.href='./smcOptions.php';">Options</button>

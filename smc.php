@@ -7,7 +7,7 @@
 ?>
 <html>
 <head>
-<title>Sukey 2eb - Message Management Console</title>
+<title>Snarl 2eb - Message Management Console</title>
 <link rel="stylesheet" type="text/css" href="smc.css" />
 <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="./library/jquery-1.4.4.js"></script>
@@ -227,7 +227,7 @@ function initialise(){
 		<button style="width:120px;height:25px" onclick='setTroll();'>Troll</button>
 		<HR/>
 		Outgoing Message
-		<button style="width:120px;height:25px" onclick='sendMsgDlg(true,false);'>Sukey Data</button>
+		<button style="width:120px;height:25px" onclick='sendMsgDlg(true,false);'>Snarl Data</button>
 		<button style="width:120px;height:25px" onclick='sendMsgDlg(true, true);'>Data &amp; SMS</button>
 		<button style="width:120px;height:25px" onclick='sendMsgDlg(false, true);'>SMS Only</button>
 		<HR/>
@@ -251,7 +251,7 @@ include 'params.php';
 ?>
 </div>
 <div style="float: left; width: 100%; text-align: Left; color: white; background: green; font-size: 10pt;position:fixed;">
-	Sukey II electric boogaloo<BR/><small>Message Management Console</small>
+	Snarl<BR/><small>Message Management Console</small>
 	<div id="buttondiv" style="position:relative; float:right; top: -14px; right: 100px; background-color:transparent; border: none;">
 		<button onclick="document.location.href='./rateuser.php';">Reputation Management</button>
 		<button onclick="document.location.href='./smcOptions.php';">Options</button>

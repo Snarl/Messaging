@@ -13,7 +13,7 @@ if (isset($_GET['since'])){
 
 
 	$r  = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
-	$r .= "<sukey version=\"2\">\n";
+	$r .= "<snarl version=\"2\">\n";
 	$r .= "<reports>\n";
 	$p = "";
 
@@ -33,7 +33,7 @@ if (isset($_GET['since'])){
 		}
 	}
 	$r .= $p. "</reports>\n";
-	$r .= "</sukey>";
+	$r .= "</snarl>";
 
 	echo $r;
 ?>

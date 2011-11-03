@@ -5,12 +5,12 @@
 
 if (!class_exists('Snoopy', false)) { include 'Snoopy.class.php';}
 
+require("params.php");
 
 function getremotefile($u){
 
 	if (!isset($u)){
-		$u = "-gucci+sukey+OR+sukeydata+OR+sukeysms+OR+sukeydating";	
-		$u = "http://search.twitter.com/search.atom?page=1&q=$u&rpp=100";
+		$u = "http://search.twitter.com/search.atom?page=1&q={$twitter_searchterm}&rpp=100";
 	}
 	
 	$raw = @file_get_contents($u);

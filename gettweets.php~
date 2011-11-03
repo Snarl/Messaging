@@ -66,7 +66,6 @@ foreach ($xml->entry as $entry) {
 				$sinceid = $id;
 			}
 			$published = date('d/m/Y H:i:s', strtotime($entry->published));
-//todo Confirm what this is and work out the appropriate replacement for "Sukey"
 			$title =  mysql_real_escape_string(str_ireplace('sukey',  " <strong style='background: yellow'>sukey</strong> ", $entry->title));
 			$contenthtml=  mysql_real_escape_string($entry->content);
 			$updated =   mysql_real_escape_string(date('d/m/Y H:i:s', strtotime($entry->updated)));

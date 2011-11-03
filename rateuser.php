@@ -274,7 +274,7 @@ function getHelp(){
 </script>
 </head>
 <body onLoad='showCalc();'>
-<div style="float: left: width: 100%; text-align: Left; color: white; background: green; font-size: 10pt;">Sukey II electric boogaloo<BR/><small>Reputation Management Console</small></div>
+<div style="float: left: width: 100%; text-align: Left; color: white; background: green; font-size: 10pt;">Snarl<BR/><small>Reputation Management Console</small></div>
 <div style="float: left; width: 50%; text-align:center; background: #f0fff0">
 
 <H3>Tweeter Profile</H3>

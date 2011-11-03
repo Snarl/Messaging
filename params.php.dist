@@ -8,4 +8,10 @@ $twitterPassword="";
 $twitterConsumerKey="";
 $twitterConsumerSecret="";
 $twitterAPIKey="";
+
+//example from Sukey "-gucci sukey OR sukeydata OR sukeysms OR J30 OR strike OR June30 OR 30Jun OR solidari"
+$twitter_searchterm="";
+
+$from_email = "";
+
 ?>

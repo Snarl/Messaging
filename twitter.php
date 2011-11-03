@@ -2,10 +2,11 @@
 if (isset($_REQUEST['_SESSION'])) die("Muppet!"); //handle session injection attack
 include 'getremotefile.php';
 include 'tagservices.php';
+include 'params.php';
 ob_start();
-//Sukey Twitter Feed
+//Twitter Feed
 //Pull In New Messages - api: http://apiwiki.twitter.com/w/page/22554756/Twitter-Search-API-Method:-search
-$searchterm=urlencode("-gucci sukey OR sukeydata OR sukeysms OR sukeydating");
+$searchterm=urlencode($twitter_searchterm);
 $sinceid=urlencode("36886867152400000");
 $languages="en,id,is,es";
 $notlanguages="ja,";

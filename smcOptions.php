@@ -17,7 +17,7 @@ $picsajaxtime = $xml->picsajaxtime['value'];
 ?>
 <html>
 <head>
-<title>Sukey 2eb - Message Management Console Options</title>
+<title>Snarl - Message Management Console Options</title>
 <link rel="stylesheet" type="text/css" href="smc.css" />
 <script type="text/javascript" src="./library/jquery-1.4.4.js"></script>
 <script type="text/javascript">
@@ -42,14 +42,14 @@ function saveconfig(){
 </head>
 <body>
 <div style="float: left: width: 100%; text-align: Left; color: white; background: green; font-size: 10pt;">
-	Sukey II electric boogaloo<BR/><small>Reputation Management Console Options</small>
+	Snarl<BR/><small>Reputation Management Console Options</small>
 	<div id="buttondiv" style="position:relative; float:right; top: -14px; right: 100px; background-color:transparent; border: none;">
 		<button onclick="document.location.href='./smc.php';">Message Console</button>
 		<button onclick="document.location.href='./smcImages.php';">Reports Console</button>
 	</div>	
 </div>
 <div style="float: left; width: 100%; text-align:center; background: #f0fff0">
-<H3>Sukey Message Center Options</H3>
+<H3>Snarl Message Center Options</H3>
 <p style="text-size:small;">Note, none of these values are validated. <br/>For colours use either HTML color names (eg DarkGreen) or 6 digit hex values (eg #00FE00).</p>
 <table align='center' id='table'>
 	<tr><th>Criteria</th><th>Value</th></tr>
